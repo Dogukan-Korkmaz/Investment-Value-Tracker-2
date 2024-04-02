@@ -9,7 +9,7 @@ DK_INVESTMENTS = {
 }
 
 VK_INVESTMENTS = {
-    "dollar": 300,
+    "dollar": 500,
     "euro": 400,
     "quarter gold": 3
 }
@@ -42,6 +42,10 @@ vk_total = 0
 vk_total += VK_INVESTMENTS["dollar"] * price_dollar
 vk_total += VK_INVESTMENTS["euro"] * price_euro
 vk_total += VK_INVESTMENTS["quarter gold"] * price_quarter_gold
+
+with open("values.txt", "a") as file:
+    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n")
+
 
 print(f"dk_total={dk_total}\nvk_total ={vk_total}")
 
