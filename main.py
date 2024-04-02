@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime as dt
 
 DK_INVESTMENTS = {
     "euro": 590,
@@ -43,8 +44,11 @@ vk_total += VK_INVESTMENTS["dollar"] * price_dollar
 vk_total += VK_INVESTMENTS["euro"] * price_euro
 vk_total += VK_INVESTMENTS["quarter gold"] * price_quarter_gold
 
+current_time = dt.now()
+formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
+
 with open("values.txt", "a") as file:
-    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n")
+    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n{formatted_time}\n")
 
 
 print(f"dk_total={dk_total}\nvk_total ={vk_total}")
