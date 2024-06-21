@@ -1,9 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from datetime import datetime as dt
+from time import sleep
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 DK_INVESTMENTS = {
-    "euro": 590,
+    "euro": 620,
     "quarter gold": 1,
     "1gr gold (22K)": 2,
     "1gr gold (24K)": 3
@@ -15,12 +18,23 @@ VK_INVESTMENTS = {
     "quarter gold": 3
 }
 
+sleep(3)
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=chrome_options)
 
 driver.get("https://uzmanpara.milliyet.com.tr/altin-fiyatlari/")
+
+try:
+
+    close_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="intclose"]'))
+    )
+    close_button.click()
+
+except Exception as e:
+    print(f"Reklam kapatılamadı: {e}")
 
 price_gr_gold_22K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[15]/td[3]').text
 price_gr_gold_22K = float(price_gr_gold_22K.strip(" TL").replace(".", ""))
@@ -48,8 +62,7 @@ current_time = dt.now()
 formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
 
 with open("values.txt", "a") as file:
-    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n{formatted_time}\n")
-
+    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n{formatted_time}\nTotal:{dk_total + vk_total}\n")
 
 print(f"dk_total={dk_total}\nvk_total ={vk_total}")
 
