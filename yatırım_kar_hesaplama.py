@@ -13,7 +13,12 @@ DK_INVESTMENTS = {
     "0,5gr gold (24K)": 2,
 }
 
+VK_INVESTMENTS = {
+    "dollar": 450,
+}
+
 DK_TOPLAM_YATIRIM = 41279
+VK_TOPLAM_YATIRIM = 15499
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -63,11 +68,17 @@ dk_total += DK_INVESTMENTS["1gr gold (22K)"] * price_gr_gold_22K
 dk_total += DK_INVESTMENTS["1gr gold (24K)"] * price_gr_gold_24K
 dk_total += DK_INVESTMENTS["0,5gr gold (24K)"] * price_05_gr_gold_24K
 
+vk_total = 0
+vk_total += VK_INVESTMENTS["dollar"] * price_dollar
+
+
 current_time = dt.now()
 formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
 
 with open("degerler.txt", "a") as file:
-    file.write(f"\nDodo:{dk_total}\n{formatted_time}\nTotal:{dk_total}\nOrjinal Yatırım Değeri:{DK_TOPLAM_YATIRIM}\nKAR:{dk_total - DK_TOPLAM_YATIRIM}")
+    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n{formatted_time}\n"
+               f"Orjinal Yatırım Değeri(DODO):{DK_TOPLAM_YATIRIM}\nKAR:{dk_total - DK_TOPLAM_YATIRIM}\n"
+               f"Orjinal Yatırım Değeri(VURAL):{VK_TOPLAM_YATIRIM}\nKAR:{vk_total - VK_TOPLAM_YATIRIM}\n")
 
 print(f"dk_total={dk_total}\n")
 

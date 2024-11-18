@@ -15,7 +15,7 @@ DK_INVESTMENTS = {
 }
 
 VK_INVESTMENTS = {
-    "dollar": 200,
+    "dollar": 450,
     "euro": 400,
     "quarter gold": 3
 }
@@ -39,9 +39,9 @@ try:
 except Exception as e:
     print(f"Reklam kapatılamadı: {e}")
 
+
 def kar_hesapla():
     price_gr_gold_22K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[15]/td[3]').text
-
 
 
 price_gr_gold_22K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[15]/td[3]').text
