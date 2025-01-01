@@ -5,8 +5,7 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-DK_INVESTMENTS = {
-    "dollar": 280,
+DK_INVESTMENTS = {    "dollar": 340+280,
     "quarter gold": 2,
     "1gr gold (22K)": 3,
     "1gr gold (24K)": 7,
@@ -17,7 +16,7 @@ VK_INVESTMENTS = {
     "dollar": 450,
 }
 
-DK_TOPLAM_YATIRIM = 41279
+DK_TOPLAM_YATIRIM = 43413+9926
 VK_TOPLAM_YATIRIM = 15499
 
 chrome_options = webdriver.ChromeOptions()
@@ -71,15 +70,21 @@ dk_total += DK_INVESTMENTS["0,5gr gold (24K)"] * price_05_gr_gold_24K
 vk_total = 0
 vk_total += VK_INVESTMENTS["dollar"] * price_dollar
 
+kar = dk_total - DK_TOPLAM_YATIRIM
+enbuyukdeger = 0
+
+if kar > enbuyukdeger:
+    enbuyukdeger = kar
 
 current_time = dt.now()
 formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
 
 with open("degerler.txt", "a") as file:
-    file.write(f"\nDodo:{dk_total}\nVural:{vk_total}\n{formatted_time}\n"
-               f"Orjinal Yatırım Değeri(DODO):{DK_TOPLAM_YATIRIM}\nKAR:{dk_total - DK_TOPLAM_YATIRIM}\n"
-               f"Orjinal Yatırım Değeri(VURAL):{VK_TOPLAM_YATIRIM}\nKAR:{vk_total - VK_TOPLAM_YATIRIM}\n")
+    file.write(f"\nDodo:{dk_total:.2f}\nVural:{vk_total:.2f}\n{formatted_time}\n"
+               f"Orjinal Yatırım Değeri(DODO):{DK_TOPLAM_YATIRIM:.2f}\nKAR:{dk_total - DK_TOPLAM_YATIRIM:.2f}\n"
+               f"Gorulen En yuksek kar degeri:{enbuyukdeger:.2f}\n"
+               f"Orjinal Yatırım Değeri(VURAL):{VK_TOPLAM_YATIRIM:.2f}\nKAR:{vk_total - VK_TOPLAM_YATIRIM:.2f}\n")
 
-print(f"dk_total={dk_total}\n")
+print(f"dk_total={dk_total:.2f}\n")
 
 driver.close()
