@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 DK_INVESTMENTS = {
-    "dollar": 340+280,
-    "euro": 70+170,
+    "dollar": 870,
+    "euro": 835,
     "quarter gold": 3,
     "1gr gold (14K)": 1.5,
     "1gr gold (22K)": 4.5,
@@ -17,14 +17,15 @@ DK_INVESTMENTS = {
 }
 
 VK_INVESTMENTS = {
-    "dollar": 450,
+    "dollar": 0,
     "euro": 0,
     "quarter gold": 0
 }
 
 SN_INVESTMENTS = {
     "euro": 0,
-    "quarter gold": 0
+    "quarter gold": 0,
+    "turkish lira": 252377
 }
 
 chrome_options = webdriver.ChromeOptions()
@@ -45,6 +46,8 @@ try:
 
 except Exception as e:
     print(f"Reklam kapatılamadı: {e}")
+
+DK_TOPLAM_YATIRIM = 66760
 
 price_gr_gold_14K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[17]/td[3]').text
 price_gr_gold_14K = float(price_gr_gold_14K.strip(" TL").replace(".", ""))
@@ -99,6 +102,11 @@ vk_total += VK_INVESTMENTS["quarter gold"] * price_quarter_gold
 sn_total = 0
 sn_total += SN_INVESTMENTS["euro"] * price_euro
 sn_total += SN_INVESTMENTS["quarter gold"] * price_quarter_gold
+sn_total += SN_INVESTMENTS["turkish lira"]
+
+sn_dollar = SN_INVESTMENTS["turkish lira"]/price_dollar
+sn_euro = SN_INVESTMENTS["turkish lira"]/price_euro
+sn_gold = SN_INVESTMENTS["turkish lira"]/price_gr_gold_24K
 print(f"sn_total:{sn_total}")
 
 current_time = dt.now()
@@ -120,6 +128,11 @@ with open("values.txt", "a") as file:
          f"Altin orani : "
          f"%{(portfoy_quarter_gold + portfoy_1gr_gold_14K + portfoy_1gr_gold_22K + portfoy_1gr_gold_24K):.2f}\n"
          f"Doviz orani : %{(portfoy_dolar + portfoy_euro):.2f}\n"
+         "--------------------------------------------------------\n"
+         f"Bankadaki para karsiliklari:\n"
+         f"Dolar:{sn_dollar:.2f}\n"
+         f"Euro:{sn_euro:.2f}\n"
+         f"Altin:{sn_gold:.2f}\n"
          "--------------------------------------------------------\n"
          f"{formatted_time}\n"
          "--------------------------------------------------------\n"
