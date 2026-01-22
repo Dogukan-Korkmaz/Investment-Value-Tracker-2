@@ -5,6 +5,7 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import locale
+from docx import Document
 
 DK_INVESTMENTS = {
     "dollar": 1305,
