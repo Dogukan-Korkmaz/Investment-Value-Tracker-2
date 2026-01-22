@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 DK_INVESTMENTS = {
-    "dollar": 870,
-    "euro": 595,
+    "dollar": 1305,
+    "euro": 800,
     "quarter gold": 2,
     "1gr gold (22K)": 3,
     "1gr gold (24K)": 8,
@@ -18,7 +18,7 @@ VK_INVESTMENTS = {
     "dollar": 0,
 }
 
-DK_TOPLAM_YATIRIM = 87585
+DK_TOPLAM_YATIRIM = 123335
 
 VK_TOPLAM_YATIRIM = 22639-22639
 
@@ -42,11 +42,11 @@ except Exception as e:
     print(f"Reklam kapatılamadı: {e}")
 
 price_gr_gold_22K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[15]/td[3]').text
-price_gr_gold_22K = float(price_gr_gold_22K.strip(" TL").replace(".", ""))
+price_gr_gold_22K = float(price_gr_gold_22K.strip(" TL").replace(".", "").replace(",", "."))
 print(price_gr_gold_22K)
 
 price_gr_gold_24K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[2]/td[3]').text
-price_gr_gold_24K = float(price_gr_gold_24K.strip(" TL").replace(".", ""))
+price_gr_gold_24K = float(price_gr_gold_24K.strip(" TL").replace(".", "").replace(",", "."))
 print(price_gr_gold_24K)
 
 #price_05_gr_gold_24K = driver.find_element(By.XPATH,
@@ -55,15 +55,15 @@ print(price_gr_gold_24K)
 #print(price_05_gr_gold_24K)
 
 price_quarter_gold = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[3]/td[3]').text
-price_quarter_gold = float(price_quarter_gold.strip(" TL").replace(".", ""))
+price_quarter_gold = float(price_quarter_gold.strip(" TL").replace(".", "").replace(",", "."))
 print(price_quarter_gold)
 
 price_dollar = driver.find_element(By.XPATH, value='//*[@id="usd_header_son_data"]').text
-price_dollar = float(price_dollar.replace(",", "."))
+price_dollar = float(price_dollar.replace(",", ".").replace(",", "."))
 print(price_dollar)
 
 price_euro = driver.find_element(By.XPATH, value='//*[@id="eur_header_son_data"]').text
-price_euro = float(price_euro.replace(",", "."))
+price_euro = float(price_euro.replace(",", ".").replace(",", "."))
 
 dk_total = 0
 dk_total += DK_INVESTMENTS["dollar"] * price_dollar

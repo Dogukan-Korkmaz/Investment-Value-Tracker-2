@@ -1599,3 +1599,660 @@ Orjinal Yatýrým Deðeri(DODO):87585.00
 KAR:31102.27
 Orjinal Yatýrým Deðeri(VURAL):0.00
 KAR:0.00
+
+Dodo:118663.27
+Vural:0.00
+01 June 2025, 11:03:44
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:31078.27
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:119950.79
+Vural:0.00
+02 June 2025, 11:06:30
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:32365.79
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:119910.35
+Vural:0.00
+03 June 2025, 11:04:33
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:32325.35
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:120504.63
+Vural:0.00
+05 June 2025, 08:52:36
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:32919.63
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:120728.29
+Vural:0.00
+06 June 2025, 09:50:09
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:33143.29
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:119721.57
+Vural:0.00
+07 June 2025, 11:06:12
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:32136.57
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:122428.35
+Vural:0.00
+13 June 2025, 17:02:16
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:34843.35
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:122488.63
+Vural:0.00
+10 July 2025, 19:39:29
+Orjinal Yatýrým Deðeri(DODO):87585.00
+KAR:34903.63
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:127153.03
+Vural:0.00
+10 July 2025, 19:47:56
+Orjinal Yatýrým Deðeri(DODO):92275.00
+KAR:34878.03
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:128431.38
+Vural:0.00
+12 July 2025, 10:27:41
+Orjinal Yatýrým Deðeri(DODO):92275.00
+KAR:36156.38
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:128575.08
+Vural:0.00
+18 July 2025, 10:00:40
+Orjinal Yatýrým Deðeri(DODO):92275.00
+KAR:36300.08
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:128884.16
+Vural:0.00
+19 July 2025, 22:49:06
+Orjinal Yatýrým Deðeri(DODO):92275.00
+KAR:36609.16
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:133544.45
+Vural:0.00
+21 July 2025, 13:26:47
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:31675.45
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:335227.30
+Vural:0.00
+23 July 2025, 10:10:10
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:233358.30
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:205079.11
+Vural:0.00
+30 July 2025, 10:46:22
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:103210.11
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:133274.24
+Vural:0.00
+30 July 2025, 10:49:00
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:31405.24
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:132916.29
+Vural:0.00
+01 August 2025, 10:24:28
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:31047.29
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:134573.25
+Vural:0.00
+02 August 2025, 11:25:26
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:32704.25
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:135126.54
+Vural:0.00
+10 August 2025, 12:21:21
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:33257.54
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:137279.42
+Vural:0.00
+29 August 2025, 11:10:50
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:35410.42
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:138935.97
+Vural:0.00
+03 September 2025, 09:13:30
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:37066.97
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:141416.36
+Vural:0.00
+06 September 2025, 15:18:45
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:39547.36
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:141787.68
+Vural:0.00
+08 September 2025, 11:16:44
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:39918.68
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:142847.15
+Vural:0.00
+09 September 2025, 20:05:03
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:40978.15
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:142747.66
+Vural:0.00
+10 September 2025, 11:26:03
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:40878.66
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:143255.85
+Vural:0.00
+13 September 2025, 11:36:40
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:41386.85
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:142674.74
+Vural:0.00
+15 September 2025, 13:26:35
+Orjinal Yatýrým Deðeri(DODO):101869.00
+KAR:40805.74
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:145035.66
+Vural:0.00
+15 September 2025, 13:39:32
+Orjinal Yatýrým Deðeri(DODO):107056.00
+KAR:37979.66
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:149494.13
+Vural:0.00
+21 September 2025, 12:21:09
+Orjinal Yatýrým Deðeri(DODO):107056.00
+KAR:42438.13
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:149696.68
+Vural:0.00
+22 September 2025, 17:04:37
+Orjinal Yatýrým Deðeri(DODO):107056.00
+KAR:42640.68
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:151648.09
+Vural:0.00
+27 September 2025, 15:21:23
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:41064.09
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:151829.65
+Vural:0.00
+29 September 2025, 10:08:35
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:41245.65
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:153647.78
+Vural:0.00
+02 October 2025, 17:11:45
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:43063.78
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:155787.74
+Vural:0.00
+08 October 2025, 12:08:22
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:45203.74
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:156747.31
+Vural:0.00
+11 October 2025, 12:08:40
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:46163.31
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:157316.39
+Vural:0.00
+13 October 2025, 10:43:34
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:46732.39
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:159671.72
+Vural:0.00
+15 October 2025, 11:46:08
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:49087.72
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:161372.58
+Vural:0.00
+16 October 2025, 12:57:19
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:50788.58
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:162947.01
+Vural:0.00
+16 October 2025, 20:34:49
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:52363.01
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:163704.84
+Vural:0.00
+17 October 2025, 11:15:09
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:53120.84
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:163056.04
+Vural:0.00
+17 October 2025, 19:35:43
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:52472.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:164221.35
+Vural:0.00
+21 October 2025, 10:04:26
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:53637.35
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:161129.80
+Vural:0.00
+21 October 2025, 22:09:51
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:50545.80
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:158661.80
+Vural:0.00
+22 October 2025, 17:59:30
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:48077.80
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:157770.56
+Vural:0.00
+27 October 2025, 22:07:39
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:47186.56
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:157616.85
+Vural:0.00
+31 October 2025, 10:45:28
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:47032.85
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:156405.92
+Vural:0.00
+05 November 2025, 11:54:07
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:45821.92
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:159851.17
+Vural:0.00
+14 November 2025, 18:25:30
+Orjinal Yatýrým Deðeri(DODO):110584.00
+KAR:49267.17
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+
+Dodo:160910.52
+Vural:0.00
+14 November 2025, 18:35:21
+Orjinal Yatýrým Deðeri(DODO):111641.00
+KAR:49269.52
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:161030.16
+Vural:0.00
+15 November 2025, 18:47:30
+Orjinal Yatýrým Deðeri(DODO):112065.00
+KAR:48965.16
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:161173.36
+Vural:0.00
+17 November 2025, 11:37:18
+Orjinal Yatýrým Deðeri(DODO):112065.00
+KAR:49108.36
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:160448.26
+Vural:0.00
+18 November 2025, 11:14:49
+Orjinal Yatýrým Deðeri(DODO):112310.00
+KAR:48138.26
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:161951.78
+Vural:0.00
+20 November 2025, 17:11:47
+Orjinal Yatýrým Deðeri(DODO):112947.00
+KAR:49004.78
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:162544.23
+Vural:0.00
+24 November 2025, 10:45:23
+Orjinal Yatýrým Deðeri(DODO):113796.00
+KAR:48748.23
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:164877.10
+Vural:0.00
+27 November 2025, 18:55:38
+Orjinal Yatýrým Deðeri(DODO):114646.00
+KAR:50231.10
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:165968.82
+Vural:0.00
+29 November 2025, 12:36:00
+Orjinal Yatýrým Deðeri(DODO):114646.00
+KAR:51322.82
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:165980.25
+Vural:0.00
+30 November 2025, 18:51:12
+Orjinal Yatýrým Deðeri(DODO):114646.00
+KAR:51334.25
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:167936.24
+Vural:0.00
+06 December 2025, 13:45:41
+Orjinal Yatýrým Deðeri(DODO):116560.00
+KAR:51376.24
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:168190.24
+Vural:0.00
+08 December 2025, 10:01:24
+Orjinal Yatýrým Deðeri(DODO):116560.00
+KAR:51630.24
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:172837.60
+Vural:0.00
+13 December 2025, 02:02:39
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:54145.60
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:173142.47
+Vural:0.00
+15 December 2025, 10:26:21
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:54450.47
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:172966.17
+Vural:0.00
+17 December 2025, 11:04:09
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:54274.17
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:173542.33
+Vural:0.00
+17 December 2025, 19:11:31
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:54850.33
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:173895.74
+Vural:0.00
+20 December 2025, 10:31:52
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:55203.74
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:174897.77
+Vural:0.00
+22 December 2025, 11:05:10
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:56205.77
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:175593.28
+Vural:0.00
+22 December 2025, 20:12:57
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:56901.28
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:176322.35
+Vural:0.00
+23 December 2025, 10:24:31
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:57630.35
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:176951.97
+Vural:0.00
+23 December 2025, 19:44:41
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:58259.97
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:177483.73
+Vural:0.00
+24 December 2025, 09:58:00
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:58791.73
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:174269.98
+Vural:0.00
+26 December 2025, 10:01:09
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:55577.98
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:178394.98
+Vural:0.00
+26 December 2025, 19:14:28
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:59702.98
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:178314.89
+Vural:0.00
+27 December 2025, 10:27:08
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:59622.89
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:178348.79
+Vural:0.00
+27 December 2025, 20:06:53
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:59656.79
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:177929.19
+Vural:0.00
+29 December 2025, 10:14:51
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:59237.19
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:176194.49
+Vural:0.00
+03 January 2026, 19:21:46
+Orjinal Yatýrým Deðeri(DODO):118692.00
+KAR:57502.49
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:177845.77
+Vural:0.00
+09 January 2026, 11:31:35
+Orjinal Yatýrým Deðeri(DODO):119556.00
+KAR:58289.77
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:178530.91
+Vural:0.00
+10 January 2026, 17:04:35
+Orjinal Yatýrým Deðeri(DODO):119556.00
+KAR:58974.91
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:186480.04
+Vural:0.00
+17 January 2026, 17:30:48
+Orjinal Yatýrým Deðeri(DODO):120425.00
+KAR:66055.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:186480.04
+Vural:0.00
+18 January 2026, 22:46:10
+Orjinal Yatýrým Deðeri(DODO):120425.00
+KAR:66055.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:187523.20
+Vural:0.00
+19 January 2026, 11:51:27
+Orjinal Yatýrým Deðeri(DODO):120425.00
+KAR:67098.20
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192419.32
+Vural:0.00
+21 January 2026, 16:38:14
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:69084.32
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192766.75
+Vural:0.00
+22 January 2026, 22:48:14
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:69431.75
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
