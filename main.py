@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import locale
 from docx import Document
+from docx.shared import RGBColor
 
 DK_INVESTMENTS = {
     "dollar": 1305,
@@ -189,6 +190,47 @@ with open("values.txt", "a", encoding="utf-8") as file:
         "**********************************************************\n"
     )
     print(f"dk_total={dk_total}\nvk_total ={vk_total}")
+
+
+    def the_dog_move_word(origin_price, refund, filename="output.docx"):
+        endgame = origin_price - refund
+
+        if endgame < 0:
+            message = f"LET'S GOOO!! KÂR: {endgame}"
+            color = RGBColor(0, 128, 0)
+        else:
+            message = f"damn.. maybe next time: -{endgame} TL"
+            color = RGBColor(255, 0, 0)
+
+        try:
+            document = Document(filename)
+        except:
+            document = Document()
+
+        line = document.add_paragraph()
+        line.add_run("******************************************************************").font.color.rgb = RGBColor(
+            123, 73, 98)
+
+        date_paragraph = document.add_paragraph()
+        date_paragraph.add_run(f"Zaman: {formatted_time}\n").font.color.rgb = RGBColor(100, 100, 100)
+
+        message_paragraph = document.add_paragraph()
+        run = message_paragraph.add_run(message)
+        run.font.color.rgb = color
+        run.bold = True
+
+        document.save(filename)
+        print(f"{filename} dosyası oluşturuldu veya güncellendi. Word’de açabilirsiniz!")
+
+
+    origin_price = 2009
+    refund = int(39.29 * price_euro)
+
+    origin_price_ebay = price_ons_gumus
+    price_gumus_dolar = 132.93 * price_dollar
+
+    the_dog_move_word(origin_price, refund)
+    the_dog_move_word(price_gumus_dolar, origin_price_ebay)
 
     driver.close()
     driver2.close()

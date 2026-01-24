@@ -2256,3 +2256,11 @@ Orjinal Yatýrým Deðeri(DODO):123335.00
 KAR:69431.75
 Orjinal Yatýrým Deðeri(VURAL):0.00
 KAR:0.00
+
+Dodo:194297.68
+Vural:0.00
+23 January 2026, 18:14:39
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:70962.68
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
