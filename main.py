@@ -1,12 +1,25 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from datetime import datetime as dt
-from time import sleep
+from time import perf_counter
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import locale
 from docx import Document
 from docx.shared import RGBColor
+
+
+def timer_beginner():
+    start_time = perf_counter()
+    return start_time
+
+
+def timer_ender():
+    end_time = perf_counter()
+    return end_time
+
+
+start_time_outer = timer_beginner()
 
 DK_INVESTMENTS = {
     "dollar": 1305,
@@ -35,24 +48,68 @@ SN_INVESTMENTS = {
     "turkish lira": 455436
 }
 
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--disable-infobars")
-chrome_options.add_argument("--disable-notifications")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_experimental_option("detach", True)
 
-driver = webdriver.Chrome(options=chrome_options)
+def chrome_options_maker():
+
+    chrome_options = webdriver.ChromeOptions()
+
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-infobars")
+    chrome_options.add_argument("--disable-notifications")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
+    chrome_options.add_experimental_option("detach", True)
+    chrome_options.add_argument("--disable-popup-blocking")
+    chrome_options.add_argument("--headless=new")
+    chrome_options.set_capability("pageLoadStrategy", "eager")
+    chrome_options.add_argument("--disable-background-networking")
+    chrome_options.add_argument("--disable-sync")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--mute-audio")
+
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
+                 "(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+    chrome_options.add_argument(f"user-agent={user_agent}")
+
+    prefs = {
+
+        "profile.managed_default_content_settings.images": 2,
+        "profile.default_content_setting_values.notifications": 2,
+        "profile.managed_default_content_settings.stylesheets": 2,
+        "profile.managed_default_content_settings.fonts": 2,
+        "profile.managed_default_content_settings.media": 2,
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False,
+    }
+    chrome_options.add_experimental_option("prefs", value=prefs)
+
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
+
+    return chrome_options
+
+
+driver = webdriver.Chrome(
+    options=chrome_options_maker(),
+)
+
 driver.set_window_size(960, 1080)
 driver.set_window_position(0, 0)
 driver.get("https://uzmanpara.milliyet.com.tr/altin-fiyatlari/")
 
-driver2 = webdriver.Chrome(options=chrome_options)
+driver2 = webdriver.Chrome(options=chrome_options_maker())
 driver2.set_window_size(960, 1080)
 driver2.set_window_position(960, 0)
 driver2.get("https://uzmanpara.milliyet.com.tr/doviz-kurlari/")
 
-sleep(6)
+WebDriverWait(driver, 20).until(
+    ec.presence_of_element_located((By.XPATH, '/html/body/div[13]/div[7]/div[1]/div[2]/div[2]/div[1]'))
+)
 
 try:
 
@@ -145,6 +202,8 @@ sn_pound = SN_INVESTMENTS["turkish lira"] / price_pound
 sn_gold = SN_INVESTMENTS["turkish lira"] / price_gr_gold_24K
 print(f"sn_total:{sn_total}")
 
+grand_total = dk_total+vk_total+sn_total
+
 current_time = dt.now()
 formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
 
@@ -154,16 +213,17 @@ except locale.Error:
     print("tr_TR locale sistemde yüklü değil.")
     exit()
 
-formatli_dk_total = locale.currency(dk_total, grouping=True)
-formatli_sn_total = locale.currency(sn_total, grouping=True)
-formatli_vk_total = locale.currency(vk_total, grouping=True)
-formatli_total = locale.currency(dk_total + vk_total + sn_total, grouping=True)
+
+def format_info(total):
+    formatted_total = locale.currency(total, grouping=True)
+    return formatted_total
+
 
 with open("values.txt", "a", encoding="utf-8") as file:
     file.write(
-        f"\nDodo:{formatli_dk_total}\n"
-        f"Sengul:{formatli_sn_total}\n"
-        f"Vural:{formatli_vk_total}\n"
+        f"\nDodo:{format_info(dk_total)}\n"
+        f"Sengul:{format_info(sn_total)}\n"
+        f"Vural:{format_info(vk_total)}\n"
         "--------------------------------------------------------\n"
         f"Dolar oranı : %{portfoy_dolar:.2f}\n"
         f"Euro oranı : %{portfoy_euro:.2f}\n"
@@ -186,10 +246,44 @@ with open("values.txt", "a", encoding="utf-8") as file:
         "--------------------------------------------------------\n"
         f"{formatted_time}\n"
         "--------------------------------------------------------\n"
-        f"Total:{(formatli_total)}\n"
+        f"Total:{format_info(grand_total)}\n"
         "**********************************************************\n"
     )
     print(f"dk_total={dk_total}\nvk_total ={vk_total}")
+
+    def babanne_borc(filename="muazzez_borc.docx"):
+        Muzazzez = {
+            "dollar": 500,
+            "euro": 100,
+            "1gr gold (24K)": 26,
+            "turkish lira": 50000
+        }
+        muazzez_dolar = Muzazzez["dollar"] * price_dollar
+        muazzez_euro = Muzazzez["euro"] * price_euro
+        muazzez_24k_gold = Muzazzez["1gr gold (24K)"] * price_gr_gold_24K
+        muazzez_tl = Muzazzez["turkish lira"]
+
+        muazzez_total = muazzez_dolar + muazzez_euro + muazzez_24k_gold + muazzez_tl
+
+        try:
+            document = Document(filename)
+            print("Mevcut dosya açıldı.")
+        except Exception as e:
+            print("Dosya yok, yeni dosya oluşturuluyor:", e)
+            document = Document()
+
+        line = document.add_paragraph()
+        line.add_run("******************************************************************\n").font.color.rgb = RGBColor(
+            123, 73, 98)
+        line.add_run(f"{format_info(muazzez_total)}\n")
+        line.add_run("------------------------------------------------------\n")
+        line.add_run(f"Tarih&Saat : {formatted_time}")
+
+        document.save(filename)
+        print(f"{filename} dosyası oluşturuldu veya güncellendi. Word’de açabilirsiniz!")
+
+    babanne_borc()
+
 
 
     def the_dog_move_word(origin_price, refund, filename="output.docx"):
@@ -231,6 +325,48 @@ with open("values.txt", "a", encoding="utf-8") as file:
 
     the_dog_move_word(origin_price, refund)
     the_dog_move_word(price_gumus_dolar, origin_price_ebay)
+
+    end_time_outer = timer_ender()
+    the_time_value = end_time_outer - start_time_outer
+
+    def doc_timer(time_value, filename="time_output.docx"):
+
+        try:
+            document = Document(filename)
+            print("Mevcut dosya açıldı.")
+        except Exception as e:
+            print("Dosya yok, yeni dosya oluşturuluyor:", e)
+            document = Document()
+
+        line = document.add_paragraph()
+        line.add_run("******************************************************************").font.color.rgb = RGBColor(
+            123, 73, 98)
+
+        date_paragraph = document.add_paragraph()
+        date_paragraph.add_run(f"Zaman: {time_value:.2f} saniye\n").font.color.rgb = RGBColor(10, 2, 200)
+        date_paragraph.add_run("------------------------------------------------------\n")
+        date_paragraph.add_run(f"Tarih&Saat : {formatted_time}")
+
+        document.save(filename)
+        print(f"{filename} dosyası oluşturuldu veya güncellendi. Word’de açabilirsiniz!")
+
+    def ebay_app():
+        print("bruh")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    doc_timer(the_time_value)
 
     driver.close()
     driver2.close()
