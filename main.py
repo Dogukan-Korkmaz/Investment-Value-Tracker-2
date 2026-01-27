@@ -164,7 +164,8 @@ total_1gr_gold_14K = DK_INVESTMENTS["1gr gold (14K)"] * price_gr_gold_14K
 total_1gr_gold_22K = DK_INVESTMENTS["1gr gold (22K)"] * price_gr_gold_22K
 total_1gr_gold_24K = DK_INVESTMENTS["1gr gold (24K)"] * price_gr_gold_24K
 
-dk_total = total_dollar + total_euro + total_pound + total_1gr_gold_14K + total_quarter_gold + total_1gr_gold_22K + total_1gr_gold_24K + total_gumus
+dk_total = total_dollar + total_euro + total_pound + total_1gr_gold_14K + total_quarter_gold + total_1gr_gold_22K + \
+           total_1gr_gold_24K + total_gumus
 print(f"Altınlar : {total_quarter_gold + total_1gr_gold_14K + total_1gr_gold_22K + total_1gr_gold_24K}")
 
 portfoy_dolar = (total_dollar * 100) / dk_total
@@ -252,16 +253,16 @@ with open("values.txt", "a", encoding="utf-8") as file:
     print(f"dk_total={dk_total}\nvk_total ={vk_total}")
 
     def babanne_borc(filename="muazzez_borc.docx"):
-        Muzazzez = {
+        muzazzez = {
             "dollar": 500,
             "euro": 100,
             "1gr gold (24K)": 26,
             "turkish lira": 50000
         }
-        muazzez_dolar = Muzazzez["dollar"] * price_dollar
-        muazzez_euro = Muzazzez["euro"] * price_euro
-        muazzez_24k_gold = Muzazzez["1gr gold (24K)"] * price_gr_gold_24K
-        muazzez_tl = Muzazzez["turkish lira"]
+        muazzez_dolar = muzazzez["dollar"] * price_dollar
+        muazzez_euro = muzazzez["euro"] * price_euro
+        muazzez_24k_gold = muzazzez["1gr gold (24K)"] * price_gr_gold_24K
+        muazzez_tl = muzazzez["turkish lira"]
 
         muazzez_total = muazzez_dolar + muazzez_euro + muazzez_24k_gold + muazzez_tl
 
@@ -285,15 +286,14 @@ with open("values.txt", "a", encoding="utf-8") as file:
     babanne_borc()
 
 
-
     def the_dog_move_word(origin_price, refund, filename="output.docx"):
-        endgame = origin_price - refund
+        endgame = abs(origin_price - refund)
 
         if endgame < 0:
-            message = f"LET'S GOOO!! KÂR: {endgame}"
+            message = f"LET'S GOOO!! KÂR: {endgame:.2f} TL"
             color = RGBColor(0, 128, 0)
         else:
-            message = f"damn.. maybe next time: -{endgame} TL"
+            message = f"damn.. maybe next time: -{endgame:.2f} TL"
             color = RGBColor(255, 0, 0)
 
         try:
@@ -349,21 +349,6 @@ with open("values.txt", "a", encoding="utf-8") as file:
 
         document.save(filename)
         print(f"{filename} dosyası oluşturuldu veya güncellendi. Word’de açabilirsiniz!")
-
-    def ebay_app():
-        print("bruh")
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     doc_timer(the_time_value)
