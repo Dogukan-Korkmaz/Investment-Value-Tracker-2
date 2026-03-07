@@ -23,6 +23,22 @@ DK_TOPLAM_YATIRIM = 123335
 VK_TOPLAM_YATIRIM = 22639-22639
 
 chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--disable-extensions")
+chrome_options.add_argument("--disable-infobars")
+chrome_options.add_argument("--disable-notifications")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+chrome_options.add_experimental_option("useAutomationExtension", False)
+chrome_options.add_experimental_option("detach", True)
+chrome_options.add_argument("--disable-popup-blocking")
+chrome_options.set_capability("pageLoadStrategy", "eager")
+chrome_options.add_argument("--disable-background-networking")
+chrome_options.add_argument("--disable-sync")
+chrome_options.add_argument("--disable-extensions")
+chrome_options.add_argument("--mute-audio")
 chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=chrome_options)

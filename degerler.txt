@@ -2296,3 +2296,355 @@ Orjinal Yatýrým Deðeri(DODO):123335.00
 KAR:75128.03
 Orjinal Yatýrým Deðeri(VURAL):0.00
 KAR:0.00
+
+Dodo:198768.39
+Vural:0.00
+27 January 2026, 19:48:42
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75433.39
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201023.34
+Vural:0.00
+28 January 2026, 11:54:43
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77688.34
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202314.43
+Vural:0.00
+28 January 2026, 19:36:19
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:78979.43
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:206130.00
+Vural:0.00
+29 January 2026, 12:44:00
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:82795.00
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:207846.32
+Vural:0.00
+29 January 2026, 16:34:13
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:84511.32
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:206345.76
+Vural:0.00
+30 January 2026, 00:10:42
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:83010.76
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:203873.76
+Vural:0.00
+30 January 2026, 10:17:26
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:80538.76
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196834.83
+Vural:0.00
+30 January 2026, 21:22:48
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:73499.83
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196798.98
+Vural:0.00
+31 January 2026, 12:28:59
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:73463.98
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196287.73
+Vural:0.00
+31 January 2026, 14:49:04
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:72952.73
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196287.73
+Vural:0.00
+01 February 2026, 11:53:39
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:72952.73
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192306.42
+Vural:0.00
+03 February 2026, 01:01:37
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:68971.42
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196538.49
+Vural:0.00
+03 February 2026, 14:15:30
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:73203.49
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196721.39
+Vural:0.00
+03 February 2026, 21:56:57
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:73386.39
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198495.88
+Vural:0.00
+04 February 2026, 18:35:50
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75160.88
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:195941.87
+Vural:0.00
+05 February 2026, 22:15:57
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:72606.87
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197132.66
+Vural:0.00
+06 February 2026, 18:48:04
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:73797.66
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192889.55
+Vural:0.00
+07 February 2026, 00:00:26
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:69554.55
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197406.78
+Vural:0.00
+08 February 2026, 12:32:16
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74071.78
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198339.04
+Vural:0.00
+10 February 2026, 10:54:27
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75004.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198457.99
+Vural:0.00
+10 February 2026, 23:09:15
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75122.99
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198880.77
+Vural:0.00
+11 February 2026, 12:22:47
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75545.77
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197703.66
+Vural:0.00
+13 February 2026, 01:27:32
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74368.66
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198864.04
+Vural:0.00
+15 February 2026, 19:07:12
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75529.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197395.10
+Vural:0.00
+17 February 2026, 11:54:15
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74060.10
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196239.10
+Vural:0.00
+17 February 2026, 21:10:33
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:72904.10
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198125.65
+Vural:0.00
+18 February 2026, 19:23:00
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74790.65
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198266.29
+Vural:0.00
+19 February 2026, 18:42:26
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74931.29
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198209.11
+Vural:0.00
+20 February 2026, 00:29:05
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:74874.11
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198618.94
+Vural:0.00
+20 February 2026, 11:54:34
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75283.94
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:199955.56
+Vural:0.00
+21 February 2026, 13:07:29
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:76620.56
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200838.04
+Vural:0.00
+23 February 2026, 15:48:17
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77503.04
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201329.17
+Vural:0.00
+24 February 2026, 11:04:40
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77994.17
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201352.47
+Vural:0.00
+25 February 2026, 13:37:13
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:78017.47
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201256.83
+Vural:0.00
+26 February 2026, 16:53:47
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77921.83
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202722.64
+Vural:0.00
+27 February 2026, 23:51:09
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:79387.64
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:203823.71
+Vural:0.00
+28 February 2026, 19:33:20
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:80488.71
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:203823.71
+Vural:0.00
+01 March 2026, 14:12:27
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:80488.71
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:206289.87
+Vural:0.00
+02 March 2026, 10:34:08
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:82954.87
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:204088.36
+Vural:0.00
+03 March 2026, 11:20:10
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:80753.36
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200822.27
+Vural:0.00
+04 March 2026, 10:30:40
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77487.27
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201152.85
+Vural:0.00
+04 March 2026, 19:50:22
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77817.85
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200099.01
+Vural:0.00
+05 March 2026, 18:34:33
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:76764.01
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201079.42
+Vural:0.00
+07 March 2026, 11:37:54
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:77744.42
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
