@@ -8,9 +8,10 @@ from selenium.webdriver.support import expected_conditions as ec
 DK_INVESTMENTS = {
     "dollar": 1305,
     "euro": 800,
+    "silver": 50,
     "quarter gold": 2,
     "1gr gold (22K)": 3,
-    "1gr gold (24K)": 8,
+    "1gr gold (24K)": 8+1,
     #"0,5gr gold (24K)": 2,
 }
 
@@ -18,7 +19,9 @@ VK_INVESTMENTS = {
     "dollar": 0,
 }
 
-DK_TOPLAM_YATIRIM = 123335
+DK_TOPLAM_YATIRIM = 143623
+
+
 
 VK_TOPLAM_YATIRIM = 22639-22639
 
@@ -41,6 +44,10 @@ try:
 except Exception as e:
     print(f"Reklam kapatılamadı: {e}")
 
+price_gumus = driver.find_element(By.XPATH, value='/html/body/div[13]/div[7]/div[2]/div[4]/table/tbody/tr[2]/td[3]').text
+price_gumus = float(price_gumus.strip(" TL").replace(".", "").replace(",", "."))
+print(f"Gumus:{price_gumus}")
+
 price_gr_gold_22K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[15]/td[3]').text
 price_gr_gold_22K = float(price_gr_gold_22K.strip(" TL").replace(".", "").replace(",", "."))
 print(price_gr_gold_22K)
@@ -48,11 +55,6 @@ print(price_gr_gold_22K)
 price_gr_gold_24K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[2]/td[3]').text
 price_gr_gold_24K = float(price_gr_gold_24K.strip(" TL").replace(".", "").replace(",", "."))
 print(price_gr_gold_24K)
-
-#price_05_gr_gold_24K = driver.find_element(By.XPATH,
-#                                           value='/html/body/div[13]/div[7]/div[2]/div[3]/table/tbody/tr[4]/td[3]').text
-#price_05_gr_gold_24K = float(price_05_gr_gold_24K.strip(" TL").replace(".", ""))
-#print(price_05_gr_gold_24K)
 
 price_quarter_gold = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[3]/td[3]').text
 price_quarter_gold = float(price_quarter_gold.strip(" TL").replace(".", "").replace(",", "."))
@@ -71,6 +73,7 @@ dk_total += DK_INVESTMENTS["euro"] * price_euro
 dk_total += DK_INVESTMENTS["quarter gold"] * price_quarter_gold
 dk_total += DK_INVESTMENTS["1gr gold (22K)"] * price_gr_gold_22K
 dk_total += DK_INVESTMENTS["1gr gold (24K)"] * price_gr_gold_24K
+dk_total += DK_INVESTMENTS["silver"] * price_gumus
 #dk_total += DK_INVESTMENTS["0,5gr gold (24K)"] * price_05_gr_gold_24K
 
 vk_total = 0

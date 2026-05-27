@@ -2296,3 +2296,315 @@ Orjinal Yatýrým Deðeri(DODO):123335.00
 KAR:75128.03
 Orjinal Yatýrým Deðeri(VURAL):0.00
 KAR:0.00
+
+Dodo:201497.53
+Vural:0.00
+11 March 2026, 12:18:45
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:78162.53
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198490.72
+Vural:0.00
+18 March 2026, 12:52:09
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:75155.72
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192849.01
+Vural:0.00
+19 March 2026, 19:00:22
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:69514.01
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:193564.10
+Vural:0.00
+20 March 2026, 13:51:28
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:70229.10
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:191862.61
+Vural:0.00
+21 March 2026, 18:13:15
+Orjinal Yatýrým Deðeri(DODO):123335.00
+KAR:68527.61
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:198267.31
+Vural:0.00
+22 March 2026, 18:37:06
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:67832.31
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:192473.81
+Vural:0.00
+23 March 2026, 14:30:59
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:62038.81
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:191739.75
+Vural:0.00
+24 March 2026, 01:52:24
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:61304.75
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:195554.31
+Vural:0.00
+24 March 2026, 13:25:35
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:65119.31
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197559.69
+Vural:0.00
+25 March 2026, 10:12:50
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:67124.69
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:194745.77
+Vural:0.00
+26 March 2026, 21:41:38
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:64310.77
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:195655.80
+Vural:0.00
+27 March 2026, 12:18:14
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:65220.80
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196066.16
+Vural:0.00
+28 March 2026, 11:56:36
+Orjinal Yatýrým Deðeri(DODO):130435.00
+KAR:65631.16
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196066.16
+Vural:0.00
+28 March 2026, 12:02:24
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:58871.16
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196719.33
+Vural:0.00
+30 March 2026, 17:23:55
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:59524.33
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:304415.21
+Vural:0.00
+30 March 2026, 22:59:39
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:167220.21
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:196998.97
+Vural:0.00
+31 March 2026, 11:41:08
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:59803.97
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:199015.41
+Vural:0.00
+31 March 2026, 22:06:50
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:61820.41
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200284.45
+Vural:0.00
+01 April 2026, 12:10:49
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:63089.45
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202152.84
+Vural:0.00
+01 April 2026, 21:13:07
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:64957.84
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:195529.83
+Vural:0.00
+02 April 2026, 10:03:12
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:58334.83
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:199551.94
+Vural:0.00
+02 April 2026, 19:36:18
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:62356.94
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200480.54
+Vural:0.00
+05 April 2026, 10:56:58
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:63285.54
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202027.90
+Vural:0.00
+09 April 2026, 12:08:58
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:64832.90
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202607.23
+Vural:0.00
+10 April 2026, 01:17:21
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:65412.23
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:197987.76
+Vural:0.00
+13 April 2026, 12:52:20
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:60792.76
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:205820.03
+Vural:0.00
+17 April 2026, 21:20:27
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:68625.03
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:205210.21
+Vural:0.00
+18 April 2026, 14:26:53
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:68015.21
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:202900.35
+Vural:0.00
+25 April 2026, 17:09:28
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:65705.35
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201690.58
+Vural:0.00
+28 April 2026, 11:58:03
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:64495.58
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:203598.52
+Vural:0.00
+06 May 2026, 22:18:57
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:66403.52
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:203754.00
+Vural:0.00
+11 May 2026, 13:01:35
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:66559.00
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:204215.98
+Vural:0.00
+12 May 2026, 22:00:58
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:67020.98
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:204284.17
+Vural:0.00
+13 May 2026, 10:46:31
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:67089.17
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201622.62
+Vural:0.00
+15 May 2026, 13:43:29
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:64427.62
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:201665.57
+Vural:0.00
+16 May 2026, 14:57:33
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:64470.57
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:200485.21
+Vural:0.00
+20 May 2026, 11:53:19
+Orjinal Yatýrým Deðeri(DODO):137195.00
+KAR:63290.21
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:208085.10
+Vural:0.00
+25 May 2026, 11:59:09
+Orjinal Yatýrým Deðeri(DODO):143622.00
+KAR:64463.10
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00
+
+Dodo:208624.76
+Vural:0.00
+26 May 2026, 12:07:49
+Orjinal Yatýrým Deðeri(DODO):143623.00
+KAR:65001.76
+Orjinal Yatýrým Deðeri(VURAL):0.00
+KAR:0.00

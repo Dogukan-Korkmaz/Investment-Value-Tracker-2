@@ -25,13 +25,13 @@ DK_INVESTMENTS = {
     "dollar": 1305,
     "euro": 2040,
     "pound": 50,
-    "silver(ons)": 0,
+    "silver(gr)": 50,
     "quarter gold": 3,
     "1gr gold (14K)": 1.5,
     "1gr gold (22K)": 4.5,
     # 4 adet 1 gram, 1 adet 0,5gram#
-    "1gr gold (24K)": 43,
-    # 1 adet 5 gram, 1 adet 10 gram, 1 adet 20 gram, 7 adet 1 gram, 2 adet 0,5gram#
+    "1gr gold (24K)": 45,
+    # 1 adet 5 gram, 1 adet 10 gram, 1 adet 20 gram, 7 adet 1 gram, 2 adet 0,5gram# ** Babanım 5 gram altınıda bende.
 }
 
 VK_INVESTMENTS = {
@@ -45,12 +45,11 @@ VK_INVESTMENTS = {
 SN_INVESTMENTS = {
     "euro": 300,
     "quarter gold": 0,
-    "turkish lira": 455436
+    "turkish lira": 509288
 }
 
 
 def chrome_options_maker():
-
     chrome_options = webdriver.ChromeOptions()
 
     chrome_options.add_argument("--disable-extensions")
@@ -107,8 +106,8 @@ driver2.set_window_size(960, 1080)
 driver2.set_window_position(960, 0)
 driver2.get("https://uzmanpara.milliyet.com.tr/doviz-kurlari/")
 
-WebDriverWait(driver, 20).until(
-    ec.presence_of_element_located((By.XPATH, '/html/body/div[13]/div[7]/div[1]/div[2]/div[2]/div[1]'))
+WebDriverWait(driver, 10).until(
+    ec.presence_of_element_located((By.CLASS_NAME, 'headerTop'))
 )
 
 try:
@@ -121,6 +120,13 @@ try:
 except Exception as e:
     print(f"Reklam kapatılamadı: {e}")
 
+price_gumus = driver.find_element(
+    By.XPATH,
+    "//td[contains(.,'Gümüş Gram (TL)')]/../td[3]"
+).text
+price_gumus = float(price_gumus.strip(" TL").replace(".", "").replace(",", "."))
+print(f"Gumus:{price_gumus}")
+
 price_gr_gold_14K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[17]/td[3]').text
 price_gr_gold_14K = float(price_gr_gold_14K.strip(" TL").replace(".", "").replace(",", "."))
 print(f"14k:{price_gr_gold_14K}")
@@ -131,35 +137,40 @@ print(f"22k:{price_gr_gold_22K}")
 
 price_gr_gold_24K = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[2]/td[3]').text
 price_gr_gold_24K = float(price_gr_gold_24K.strip(" TL").replace(".", "").replace(",", "."))
-print(price_gr_gold_24K)
+print(f"24k:{price_gr_gold_24K}")
 
 price_quarter_gold = driver.find_element(By.XPATH, value='//*[@id="altinfiyat"]/tbody/tr[3]/td[3]').text
 price_quarter_gold = float(price_quarter_gold.strip(" TL").replace(".", "").replace(",", "."))
-print(price_quarter_gold)
-
-price_ons_gumus = driver.find_element(By.XPATH,
-                                      value="/html/body/div[13]/div[7]/div[2]/div[4]/table/tbody/tr[6]/td[3]").text
-price_ons_gumus = float(price_ons_gumus.replace(".", "").replace(",", "."))
-print(price_ons_gumus)
+print(f"çeğrek:{price_quarter_gold}")
 
 price_dollar = driver.find_element(By.XPATH, value='//*[@id="usd_header_son_data"]').text
 price_dollar = float(price_dollar.replace(",", ".").replace(",", "."))
-print(price_dollar)
+print(f"dollar:{price_dollar}")
 
 price_euro = driver.find_element(By.XPATH, value='//*[@id="eur_header_son_data"]').text
 price_euro = float(price_euro.replace(",", ".").replace(",", "."))
-print(price_euro)
+print(f"euro:{price_euro}")
 
-price_pound = driver2.find_element(By.XPATH,
-                                   value="/html/body/div[13]/div[7]/div[2]/div[1]/table/tbody/tr[4]/td[3]").text
-price_pound = float(price_pound.replace(",", ".").replace(",", "."))
-print(price_pound)
+wait2 = WebDriverWait(driver2, 20)
+
+price_pound = wait2.until(
+    ec.visibility_of_element_located(
+        (By.XPATH, "//td[contains(.,'Sterlin')]/../td[3]")
+    )
+).text
+
+price_pound = float(
+    price_pound.replace(".", "").replace(",", ".")
+)
+
+print(f"pound fiyat --> {price_pound}")
 
 total_dollar = DK_INVESTMENTS["dollar"] * price_dollar
 total_euro = DK_INVESTMENTS["euro"] * price_euro
 total_pound = DK_INVESTMENTS["pound"] * price_pound
-total_gumus = DK_INVESTMENTS["silver(ons)"] * price_ons_gumus
 total_quarter_gold = DK_INVESTMENTS["quarter gold"] * price_quarter_gold
+total_gumus = DK_INVESTMENTS["silver(gr)"] * price_gumus
+print(f"toplam gumus:{total_gumus}")
 total_1gr_gold_14K = DK_INVESTMENTS["1gr gold (14K)"] * price_gr_gold_14K
 total_1gr_gold_22K = DK_INVESTMENTS["1gr gold (22K)"] * price_gr_gold_22K
 total_1gr_gold_24K = DK_INVESTMENTS["1gr gold (24K)"] * price_gr_gold_24K
@@ -199,11 +210,11 @@ sn_total += SN_INVESTMENTS["turkish lira"]
 
 sn_dollar = SN_INVESTMENTS["turkish lira"] / price_dollar
 sn_euro = SN_INVESTMENTS["turkish lira"] / price_euro
-sn_pound = SN_INVESTMENTS["turkish lira"] / price_pound
+# sn_pound = SN_INVESTMENTS["turkish lira"] / price_pound
 sn_gold = SN_INVESTMENTS["turkish lira"] / price_gr_gold_24K
 print(f"sn_total:{sn_total}")
 
-grand_total = dk_total+vk_total+sn_total
+grand_total = dk_total + vk_total + sn_total
 
 current_time = dt.now()
 formatted_time = current_time.strftime("%d %B %Y, %H:%M:%S")
@@ -229,8 +240,8 @@ with open("values.txt", "a", encoding="utf-8") as file:
         f"Dolar oranı : %{portfoy_dolar:.2f}\n"
         f"Euro oranı : %{portfoy_euro:.2f}\n"
         f"Pound oranı : %{portfoy_pound:.2f}\n"
-        f"Gümüş oranı : %{portfoy_gumus:.2f}\n"
         f"Ceyrek altin orani : %{portfoy_quarter_gold:.2f}\n"
+        f"Gümüş oranı : %{portfoy_gumus:.2f}\n"
         f"1gr gold (14K) orani : %{portfoy_1gr_gold_14K:.2f}\n"
         f"1gr gold (22K) orani : %{portfoy_1gr_gold_22K:.2f}\n"
         f"1gr gold (24K) orani : %{portfoy_1gr_gold_24K:.2f}\n"
@@ -242,7 +253,7 @@ with open("values.txt", "a", encoding="utf-8") as file:
         f"Bankadaki para karsiliklari:\n"
         f"Dolar:{sn_dollar:.2f}\n"
         f"Euro:{sn_euro:.2f}\n"
-        f"Pound:{sn_pound:.2f}\n"
+        # f"Pound:{sn_pound:.2f}\n"
         f"Altin:{sn_gold:.2f}\n"
         "--------------------------------------------------------\n"
         f"{formatted_time}\n"
@@ -251,6 +262,7 @@ with open("values.txt", "a", encoding="utf-8") as file:
         "**********************************************************\n"
     )
     print(f"dk_total={dk_total}\nvk_total ={vk_total}")
+
 
     def babanne_borc(filename="muazzez_borc.docx"):
         muzazzez = {
@@ -282,6 +294,7 @@ with open("values.txt", "a", encoding="utf-8") as file:
 
         document.save(filename)
         print(f"{filename} dosyası oluşturuldu veya güncellendi. Word’de açabilirsiniz!")
+
 
     babanne_borc()
 
@@ -320,14 +333,13 @@ with open("values.txt", "a", encoding="utf-8") as file:
     origin_price = 2009
     refund = int(39.29 * price_euro)
 
-    origin_price_ebay = price_ons_gumus
     price_gumus_dolar = 132.93 * price_dollar
 
-    the_dog_move_word(origin_price, refund)
-    the_dog_move_word(price_gumus_dolar, origin_price_ebay)
+    # the_dog_move_word(origin_price, refund)
 
     end_time_outer = timer_ender()
     the_time_value = end_time_outer - start_time_outer
+
 
     def doc_timer(time_value, filename="time_output.docx"):
 
